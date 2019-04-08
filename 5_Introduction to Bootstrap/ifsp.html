@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Tabela pica</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<style type="text/css">
+			body{
+				background-size: cover;
+				background-position: center;
+				font-family: 'Crimson Text', serif;
+				text-align: center;
+			}
+			html{
+				height: 100%;
+			}
+			.row{
+				text-align: center;
+			}
+			.left{
+				text-align: left;
+			}
+			.row-bg{
+				background-color: lightgrey;
+			}
+			table{
+				margin-top: 20px;
+			}
+			h1, h4{
+				margin-top: 30px;
+				text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+							 0px 8px 13px rgba(0, 0, 0, 0.1),
+							 0px 18px 23px rgba(0, 0, 0, 0.1);
+			}
+			.image{
+				height: 25px;
+				width: 25px;
+				margin-bottom: 8px;
+				margin-left: 8px;
+				margin-right: 2px;
+			}
+			.th-style{
+				width: 1800px;
+			}
+			#th-border{
+				border-left: 4px solid #4285F4;
+				padding-left: 30px;
+			}
+			#th-border-2{
+				border-left: 4px solid #FA7B17;
+				padding-left: 30px;
+			}
+			#th-border-3{
+				border-left: 4px solid #34A853;
+				padding-left: 30px;
+			}
+			#th-style{
+				width: 50px;
+				height: 50px;
+			}
+            .down{
+                font-weight: 100;
+            }
+            .up{
+                font-weight: 600;
+            }
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: bottom;
+                border-top: 1px solid #dee2e6;
+            }
+            .btn-secondary {
+                color: #495057;
+                background-color: #e9ecef;
+                border-color: #e9ecef;
+            }
+            .btn-secondary:hover {
+                color: #495057;
+                background-color: #e9ecef;
+                border-color: #e9ecef;
+            }
+            .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+                color: #495057;
+                background-color: #e9ecef;
+                border-color: #e9ecef;
+            }
+            #button{
+                max-width: 200px;
+                max-height: 200px;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			
+			<table class="table table-md">
+				<thead class="thead-light">
+                    <tr>
+                        <th>
+                            <div class="dropdown left">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="button dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <p class="left down">Temporada</p>
+                                    <p class="left up">2019</p>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+					<tr>
+						<td class="left down" scope="">Clube</th>
+						<td class="down" id="th-style" scope="col">Pts</th>
+						<td class="down" scope="col">PJ</th>
+						<td class="down" scope="col">VIT</th>
+						<td class="down" scope="col">E</th>
+						<td class="down" scope="col">D</th>
+						<td class="down" scope="col">GP</th>
+						<td class="down" scope="col">GC</th>
+						<td class="down" scope="col">SG</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="th-style left" id="th-border" scope="row">1 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/7spurne-xDt2p6C0imYYNA_48x48.png"> Palmeiras</th>
+						<td>80</td>
+						<td>38</td>
+						<td>23</td>
+						<td>11</td>
+						<td>4</td>
+						<td>64</td>
+						<td>26</td>
+						<td>38</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border" scope="row">2 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png"> Flamengo</th>
+						<td>72</td>
+						<td>38</td>
+						<td>21</td>
+						<td>9</td>
+						<td>8</td>
+						<td>59</td>
+						<td>29</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border" scope="row">3 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_48x48.png"> Internacional</th>
+						<td>69</td>
+						<td>38</td>
+						<td>19</td>
+						<td>12</td>
+						<td>7</td>
+						<td>51</td>
+						<td>29</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border" scope="row">4 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_48x48.png"> Grêmio</th>
+						<td>66</td>
+						<td>38</td>
+						<td>18</td>
+						<td>12</td>
+						<td>8</td>
+						<td>48</td>
+						<td>27</td>
+						<td>21</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-2" scope="row">5 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/4w2Z97Hf9CSOqICK3a8AxQ_48x48.png"> São Paulo</th>
+						<td>63</td>
+						<td>38</td>
+						<td>16</td>
+						<td>15</td>
+						<td>7</td>
+						<td>46</td>
+						<td>34</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-2" scope="row">6 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/q9fhEsgpuyRq58OgmSndcQ_48x48.png" alt=""> Atlético</th>
+						<td>59</td>
+						<td>38</td>
+						<td>17</td>
+						<td>8</td>
+						<td>13</td>
+						<td>56</td>
+						<td>43</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-3" scope="row">7 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/wDMLzBXmGU4qz1lXUnBQvQ_48x48.png" alt=""> Atlético-PR</th>
+						<td>57</td>
+						<td>38</td>
+						<td>16</td>
+						<td>9</td>
+						<td>13</td>
+						<td>54</td>
+						<td>37</td>
+						<td>17</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-3" scope="row">8 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/cfkLbPGt7TD_FSDotajcbA_48x48.png" alt=""> Cruzeiro</th>
+						<td>53</td>
+						<td>38</td>
+						<td>14</td>
+						<td>11</td>
+						<td>13</td>
+						<td>34</td>
+						<td>34</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-3" scope="row">9 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/KLDWYp-H8CAOT9H_JgizRg_48x48.png" alt=""> Botafogo</th>
+						<td>51</td>
+						<td>38</td>
+						<td>13</td>
+						<td>12</td>
+						<td>13</td>
+						<td>38</td>
+						<td>46</td>
+						<td>-8</td>
+					</tr>
+					<tr>
+						<td class="th-style left" id="th-border-3" scope="row">10 <img class="image" src="https://ssl.gstatic.com/onebox/media/sports/logos/VHdNOT6wWOw_vJ38GMjMzg_48x48.png" alt=""> Santos</th>
+						<td>50</td>
+						<td>38</td>
+						<td>13</td>
+						<td>11</td>
+						<td>14</td>
+						<td>46</td>
+						<td>40</td>
+						<td>6</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+	</body>
+</html>
