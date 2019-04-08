@@ -1,0 +1,18 @@
+body li{
+    background: #003840;
+}
+h1{
+    color: #007369;
+}
+li{
+    color: #02A676;
+}
+#special{
+    color: orange;
+}
+.completed{
+    text-decoration: line-through;
+}
+*{
+    background: #005A5B;
+}
