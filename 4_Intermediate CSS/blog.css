@@ -1,0 +1,31 @@
+body{
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    border: 20px solid #007369;
+}
+p{
+    margin: 20px 20px;
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    margin: 30px 20px;
+    color: #003840;
+    font-weight: 500;
+    font-size: 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p:nth-of-type(1){
+    text-transform: uppercase;
+    color: #02A676;
+    letter-spacing: 0.4rem;
+}
+h2 + p{
+    border-left: 5px solid #007369;
+    padding-left: 5px;
+}
+hr {
+    margin: auto 20px;
+    color: #007369;
+}
