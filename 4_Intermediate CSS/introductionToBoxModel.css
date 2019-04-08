@@ -1,0 +1,10 @@
+body{
+    font-size: 150%;
+    text-align: center;
+}
+p{
+    border: 4px solid green;
+    width: 30%;
+    padding: 2%;
+    margin: 0 auto;
+}
